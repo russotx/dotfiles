@@ -1,0 +1,38 @@
+{
+    "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+	"jquery": true,
+    "mocha": true,
+    "mongo": true
+	},
+    "parserOptions":{
+      "sourceType": "module",
+      "ecmaFeatures":{
+        "jsx": true
+      }
+    },
+    "plugins": [ "react" ],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules": {
+        "indent": [ "off" ],
+        "quotes": [ "off" ],
+        "semi": [ "off" ],
+        "block-scoped-var": [ "error" ],
+        "no-eq-null" : [ "warn" ],
+        "no-console": [ "off" ],
+        "no-case-declarations" : [ "off" ],
+        "no-invalid-this": [ "error" ],
+        "no-lone-blocks": [ "warn" ],
+        "no-magic-numbers": [ "warn"  ],
+        "radix":[ "error" ],
+        "require-await":[ "error" ],
+        "vars-on-top":[ "warn" ],
+        "no-unused-vars":[ "warn" ],
+        "no-mixed-spaced-and-tabs":[ "off" ],
+        "no-var":[ "warn" ],
+        "react/prop-types": ["off"]
+
+    }
+}
